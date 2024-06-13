@@ -1,4 +1,10 @@
 {
+  "scripts": {
+    "start": "node index.js",
+    "build": "node build.js"
+  }
+}
+{
   "name": "angular-realworld",
   "version": "0.0.0",
   "license": "MIT",
@@ -13,6 +19,7 @@
   "engines": {
     "node": "^18.13.0 || ^20.9.0"
   },
+
   "private": true,
   "dependencies": {
     "@angular/animations": "17.0.7",
